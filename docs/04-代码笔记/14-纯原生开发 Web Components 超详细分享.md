@@ -4,7 +4,7 @@
 
 hi ～大家好
 
-我是田同学，我是开源组件库 [tyh-ui](https://github.com/hiliyongke/tyh-ui) 的作者，在这篇文章中，来讲一下我从做开源到现在，已经接下来的打算，做一些总结。
+我是荔同学，我是开源组件库 [tyh-ui](https://github.com/hiliyongke/tyh-ui) 的作者，在这篇文章中，来讲一下我从做开源到现在，已经接下来的打算，做一些总结。
 
 ## 为什么会做开源组件库
 

@@ -48,7 +48,7 @@ class User {
 }
 
 const user = new User('张同学')
-user.changeName('田同学')
+user.changeName('荔同学')
 console.log(user.sayName())
 ```
 

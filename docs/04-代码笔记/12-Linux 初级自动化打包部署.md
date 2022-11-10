@@ -2,7 +2,7 @@
 
 ## 🍦 前言
 
-大家好，我是[田同学](https://github.com/hiliyongke)，大家可以加我微信 `VirgoTyh` 一起共同学习。
+大家好，我是[荔同学](https://github.com/hiliyongke)，大家可以加我微信 `HiYongkeLi` 一起共同学习。
 
 近期开始学习了一些关于 `Linux` 相关的命令和新的可玩性的骚操作，一些命令笔记和遇到的问题，在这里记录一下，分享给大家~
 

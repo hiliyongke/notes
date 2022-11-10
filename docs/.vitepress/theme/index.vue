@@ -1,5 +1,4 @@
 <template>
-  <div class="wrapper">
     <main>
       <h3 class="title">Lyk</h3>
 
@@ -25,17 +24,10 @@
       <p>📆 里程碑</p>
       <p>🏆 前端面试题</p>
     </main>
-  </div>
 </template>
 
 <style scoped>
-.wrapper{
-  width: 100%;
-  height: 100%;
-  background-image: url('./images/bg2.webp');
-  background-size: 100% 100%;
 
-}
 main {
   max-width: 620px;
   margin: 40px auto;

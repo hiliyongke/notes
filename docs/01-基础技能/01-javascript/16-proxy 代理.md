@@ -106,7 +106,7 @@ console.log(foo.id) // 123
 
 ```js
 const foo = {
-  name: '田同学',
+  name: '荔同学',
   age: 18
 }
 const proxy = new Proxy(foo, {
@@ -118,7 +118,7 @@ const proxy = new Proxy(foo, {
   }
 })
 
-console.log(proxy.name) // 田同学
+console.log(proxy.name) // 荔同学
 console.log(proxy.age) // 18岁
 ```
 
@@ -128,7 +128,7 @@ console.log(proxy.age) // 18岁
 
 ```js
 const foo = {
-  name: '田同学'
+  name: '荔同学'
 }
 const revocable = Proxy.revocable(foo, {
   get() {
@@ -147,7 +147,7 @@ console.log(revocable.proxy.name) // 1.html:23 Uncaught ReferenceError: proxy is
 
 ```js
 const foo = {
-  name: '田同学'
+  name: '荔同学'
 }
 
 const proxyA = new Proxy(foo, {
@@ -167,7 +167,7 @@ const proxyB = new Proxy(proxyA, {
 console.log(proxyB.name)
 // proxyB
 // proxyA
-// 田同学
+// 荔同学
 ```
 
 接下来将介绍一些代理捕获器与反射的一些方法
@@ -265,13 +265,13 @@ const proxy = new Proxy(foo, {
   defineProperty(target, property, descriptor) {
     console.log(target) // {id: 123}
     console.log(property) // name
-    console.log(descriptor) // {value: '田同学', enumerable: false}
+    console.log(descriptor) // {value: '荔同学', enumerable: false}
     return Reflect.defineProperty(...arguments)
   }
 })
 
 Object.defineProperty(proxy, 'name', {
-  value: '田同学',
+  value: '荔同学',
   enumerable: false // 禁止循环
 })
 

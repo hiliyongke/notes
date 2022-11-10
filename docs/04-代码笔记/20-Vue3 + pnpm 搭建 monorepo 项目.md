@@ -1,6 +1,6 @@
 # Vue3 + pnpm 搭建 monorepo 项目
 
-大家好，我是[田同学](https://github.com/hiliyongke)。一位开源组件库作者，有兴趣可以加我微信：`VirgoTyh`，一起共同学习。
+大家好，我是[荔同学](https://github.com/hiliyongke)。一位开源组件库作者，有兴趣可以加我微信：`HiYongkeLi`，一起共同学习。
 
 ## 前言
 
