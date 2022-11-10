@@ -1,0 +1,21 @@
+{
+  "name": "yongkeli-blog",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "prettier": "prettier --write .",
+    "push": "sh push.sh"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.27",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "sass": "^1.54.9",
+    "fighting-design": "0.8.0-alpha.5",
+    "prettier": "^2.6.2",
+    "vite": "^3.0.8"
+  }
+}
