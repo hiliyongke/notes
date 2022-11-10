@@ -110,7 +110,7 @@ ll # 查看当前目录所有文件
 - 错误 1
 
 ```shell
--bash: ./tyh-blog.sh: Permission denied
+-bash: ./blog.sh: Permission denied
 ```
 
 需要添加上可执行权限，执行命令：

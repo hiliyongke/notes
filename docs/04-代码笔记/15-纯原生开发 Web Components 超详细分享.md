@@ -6,8 +6,6 @@
 
 ## 🍒 前言
 
-我是 vue3 开源组件库 [fighting-design](https://github.com/FightingDesign/fighting-design) 的维护者。
-
 最近我正在研究 Web Components 的组件库，由于目前社区还没成熟，各种例子也少，网上的一些其它文章都太过于简单，优化太差，仅仅是实现基础。很多的 web components 库也是使用了第三方的支持。但是为了搞清楚其中的原理，还是直接来手写一波原生比较好，所以近期踩尽了坑，翻遍了 MDN，也撕了一些第三方库的源码，用了两天时间，从无到有总结了以下经验，前来分享一波~
 
 ## 💡 什么是 Web Components？
@@ -165,7 +163,7 @@ customElements.define('f-button', FButton)
 
 ## 🌈 公共类
 
-对于公共类的抽离，我想到的是使用一种叫 `模板方法模式` 的 js 设计模式，这个设计模式我是在 [JavaScript 设计模与开发实践](https://github.com/hiliyongke/awesome-books) 这本书中学到的，简单的案例可参考我的看书笔记 [模板方法模式](https://blog.tianyuhao.cn/article/design-mode/design-10.html)。
+对于公共类的抽离，我想到的是使用一种叫 `模板方法模式` 的 js 设计模式，这个设计模式我是在 [JavaScript 设计模与开发实践](https://github.com/hiliyongke/awesome-books) 这本书中学到的，简单的案例可参考我的看书笔记 [模板方法模式]。
 
 > 对于设计模式，大家可自行学习，这个模式也不是很难，但是效果确不错，使用重写的方式，可实现父类的统一性。如后续有些特殊组件不是所有函数都调用的话，也可以采用钩子函数的方式进行重写，也有相对好的拓展性。
 

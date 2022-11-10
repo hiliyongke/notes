@@ -554,7 +554,7 @@ NamedNodeMap {
 
 ## firstElementChild
 
-`firstElementChild` 方法可获取一个元素第一个子元素，类似 [firstChild](https://tianyuhao.cn/blog/javascript/js-methods.html#firstchild)
+`firstElementChild` 方法可获取一个元素第一个子元素，类似 [firstChild]
 
 ```html
 <div id="app">
@@ -568,7 +568,7 @@ NamedNodeMap {
 
 ## lastElementChild
 
-`lastElementChild` 方法可获取一个元素第一个子元素，类似 [lastChild](https://tianyuhao.cn/blog/javascript/js-methods.html#lastchild)
+`lastElementChild` 方法可获取一个元素第一个子元素，类似 [lastChild]
 
 ```html
 <div id="app">

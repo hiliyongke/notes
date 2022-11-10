@@ -275,14 +275,14 @@ pnpm run dev:vue-demo3
 
 ## 局部安装依赖项
 
-比如说，我的 `vue-demo1` 的项目中需要安装 `tyh-ui`，而其它的两个项目是不需要的，那么这样的话，就可以将 `tyh-ui` 单独安装到 `vue-demo1` 的项目中，而另外两个项目是不需要的，所以就没必要安装到全局，直接安装到 `vue-demo1` 内部，安装的方式有两种：
+比如说，我的 `vue-demo1` 的项目中需要安装 `xx-ui`，而其它的两个项目是不需要的，那么这样的话，就可以将 `x-ui` 单独安装到 `vue-demo1` 的项目中，而另外两个项目是不需要的，所以就没必要安装到全局，直接安装到 `vue-demo1` 内部，安装的方式有两种：
 
 - 进入到指定目录去安装
 
 可以直接进入到指定需要安装的目录进行安装，那么进入到 `packages/vue-demo1` 中，执行：
 
 ```shell
-npm i tyh-ui2
+npm i x-ui2
 ```
 
 完成安装，这样 `vue-demo1` 中就会单独多出一个依赖项进行使用了。
@@ -292,7 +292,7 @@ npm i tyh-ui2
 使用 `--filter` 修饰符可以实现在根目录指定某个目录进行安装，具体命令为：
 
 ```shell
-pnpm i tyh-ui2 --filter vue-demo1
+pnpm i x-ui2 --filter vue-demo1
 ```
 
 这样也可以实现。

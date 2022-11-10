@@ -253,7 +253,7 @@ console.log('name' in proxy) // false
 
 ## defineProperty()
 
-`defineProperty()` 捕获器会在 [Object.defineProperty()](https://tianyuhao.cn/blog/javascript/methods-object.html#object-defineproperty) 中调用，对应的反射 API 为 `Reflect.defineProperty()`。它可以接收三个参数：
+`defineProperty()` 捕获器会在 [Object.defineProperty()]中调用，对应的反射 API 为 `Reflect.defineProperty()`。它可以接收三个参数：
 
 - 目标对象
 - 引用目标对象上的字符串属性
@@ -282,7 +282,7 @@ for (const key in proxy) {
 
 ## getOwnPropertyDescriptor()
 
-`getOwnPropertyDescriptor()` 捕获器会在 [Object.getOwnPropertyDescriptor()](https://tianyuhao.cn/blog/javascript/methods-object.html#object-getownpropertydescriptorhttps://tianyuhao.cn/blog/javascript/methods-object.html#object-getownpropertydescriptor) 中调用，对应的反射 API 为 `Reflect.getOwnPropertyDescriptor()`。它可以接收两个参数：
+`getOwnPropertyDescriptor()` 捕获器会在 [Object.getOwnPropertyDescriptor()]中调用，对应的反射 API 为 `Reflect.getOwnPropertyDescriptor()`。它可以接收两个参数：
 
 - 目标对象
 - 引用目标对象上的字符串属性
@@ -326,7 +326,7 @@ console.log(proxy) // Proxy {}
 
 ## ownKeys()
 
-`ownKeys()` 捕获器会在 [Object.keys()](https://tianyuhao.cn/blog/javascript/methods-object.html#object-keys) 操作符中调用，对应的反射 API 为 `Reflect.ownKeys()`。它可以接收一个参数：
+`ownKeys()` 捕获器会在 [Object.keys()] 操作符中调用，对应的反射 API 为 `Reflect.ownKeys()`。它可以接收一个参数：
 
 - 目标对象
 
@@ -344,7 +344,7 @@ console.log(Object.keys(proxy)) // ['id']
 
 ## getPrototypeOf()
 
-`getPrototypeOf()` 捕获器会在 [Object.getPrototypeOf()](https://tianyuhao.cn/blog/javascript/methods-object.html#object-getprototypeof) 操作符中调用，对应的反射 API 为 `Reflect.getPrototypeOf()`。它可以接收一个参数：
+`getPrototypeOf()` 捕获器会在 [Object.getPrototypeOf()]操作符中调用，对应的反射 API 为 `Reflect.getPrototypeOf()`。它可以接收一个参数：
 
 - 目标对象
 
@@ -362,7 +362,7 @@ console.log(Object.getPrototypeOf(proxy)) // {constructor: ƒ, __defineGetter__:
 
 ## setPrototypeOf()
 
-`setPrototypeOf()` 捕获器会在 [Object.setPrototypeOf()](https://tianyuhao.cn/blog/javascript/methods-object.html#object-setprototypeof) 操作符中调用，对应的反射 API 为 `Reflect.setPrototypeOf()`。它可以接收两个参数：
+`setPrototypeOf()` 捕获器会在 [Object.setPrototypeOf()]操作符中调用，对应的反射 API 为 `Reflect.setPrototypeOf()`。它可以接收两个参数：
 
 - 目标对象
 - 目标对象的代替原型
@@ -382,7 +382,7 @@ console.log(Object.setPrototypeOf(proxy, { age: 12 })) // Proxy {id: 123}
 
 ## isExtensible()
 
-`isExtensible()` 捕获器会在 [Object.isExtensible()](https://tianyuhao.cn/blog/javascript/methods-object.html#object-isExtensible) 操作符中调用，对应的反射 API 为 `Reflect.isExtensible()`。它可以接收一个参数：
+`isExtensible()` 捕获器会在 [Object.isExtensible()] 操作符中调用，对应的反射 API 为 `Reflect.isExtensible()`。它可以接收一个参数：
 
 - 目标对象
 
@@ -400,7 +400,7 @@ console.log(Object.isExtensible(proxy)) // true
 
 ## preventExtensions()
 
-`preventExtensions()` 捕获器会在 [Object.preventExtensions()](https://tianyuhao.cn/blog/javascript/methods-object.html#object-preventExtensions) 操作符中调用，对应的反射 API 为 `Reflect.preventExtensions()`。它可以接收一个参数：
+`preventExtensions()` 捕获器会在 [Object.preventExtensions()]操作符中调用，对应的反射 API 为 `Reflect.preventExtensions()`。它可以接收一个参数：
 
 - 目标对象
 
