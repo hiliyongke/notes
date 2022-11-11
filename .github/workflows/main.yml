@@ -35,7 +35,7 @@ jobs:
         run: pnpm i --frozen-lockfile 
 
       - name: Build
-        run: pnpm docs:build
+        run: pnpm build
       # 这里引用了别人写好的发布库，具体参数信息可以查阅上面的链接
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
