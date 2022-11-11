@@ -3,7 +3,7 @@
     <h3 class="title">致自己</h3>
     <p v-html="content"></p>
     <p align="center">
-      <a class="start" href="/01-基础技能/index">
+      <a class="start" href="/notes/01-基础技能/index">
         扬帆起航
       </a>
       <a class="github" href="https://github.com/hiliyongke" target="_blank">
